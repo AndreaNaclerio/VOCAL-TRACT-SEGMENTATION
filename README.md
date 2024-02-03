@@ -8,7 +8,11 @@ The aim of the project is to implement a Ruthven U-net architecture for vocal tr
 </p>
 
 ## PREPROCESSING
-The preprocessing phase aimed to eliminate Gaussian noise present in the provided dataset through three tests. Several methods have been performed; the one with the best performance was the **fastNlMeansDenoising** fastNlMeansDenoising demonstrated effective noise reduction, paving the way for subsequent neural architecture implementation.
+The preprocessing phase aimed to eliminate Gaussian noise present in the provided dataset through three tests. Several methods have been performed; the one that demonstrates the most effective noise reduction was the **fastNlMeansDenoising**, a function already implemented in OpenCV library.
+<p align="center">
+  <img width="600" height="300" alt="noise" src="https://github.com/NacliNaclo/VOCAL-TRACT-SEGMENTATION/assets/107640468/122d29da-2bb9-420a-8963-313553b85a0e">
+</p>
+
 ## MODEL
 ## RESULTS
 - The model architecture is based on the Ruthven U-net, consisting of encoder and decoder paths. In the encoder path, high-level features are extracted by progressively reducing spatial dimensions and increasing the number of feature maps. This process results in a latent representation space where spatial resolution is sacrificed for high-level features. The decoder path aims to restore the initial image's spatial dimension, utilizing transpose convolutional layers in combination with standard blocks. Skip connections are incorporated at each step to preserve spatial information extracted by the encoder.
@@ -23,9 +27,7 @@ To enhance U-net's performance, residual blocks are introduced into the architec
   <img width="200" height="200" src="Media1 (online-video-cutter.com)(1).gif"/>
 </p>
 
-<p align="center">
-  <img width="600" height="300" alt="noise" src="https://github.com/NacliNaclo/VOCAL-TRACT-SEGMENTATION/assets/107640468/122d29da-2bb9-420a-8963-313553b85a0e">
-</p>
+
 
 
 <p float="left" align="center">
