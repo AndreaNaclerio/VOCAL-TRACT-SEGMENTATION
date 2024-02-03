@@ -24,6 +24,18 @@ To enhance U-net's performance, residual blocks are introduced into the architec
 
 
 ## RESULTS
+| CLASS | DICE | DICE MEDIAN FILTER |
+| --- | --- |
+| BACKGROUND | 0.9911 | 0.9913 |
+| UPPER LIP | 0.9013 | 0.8473 |
+| LOWER LIP| 0.8476 | 0.8164 |
+| HARD PALATE | 0.7910 | 0.8184 |
+| SOFT PALATE | 0.9320 | 0.9276 |
+| TOGUE | 0.8858 | 0.8783 |
+| HEAD |0.9669 | 0.9657 |
+
+
+
 
 <p align="center">
   <img width="200" height="200" src="Media1 (online-video-cutter.com)(1).gif"/>
