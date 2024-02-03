@@ -19,9 +19,8 @@ To enhance U-net's performance, residual blocks are introduced into the architec
 
 
 <p float="left">
-  <img src="/img1.png" width="100" />
+  <img src="Picture2.png" width="100" />
   <img src="/img2.png" width="100" /> 
   <img src="/img3.png" width="100" />
 </p>
-![Picture2](https://github.com/NacliNaclo/VOCAL-TRACT-SEGMENTATION/assets/107640468/36f3205a-9fe8-4791-886b-921d17ae1f4d)
-![Picture3](https://github.com/NacliNaclo/VOCAL-TRACT-SEGMENTATION/assets/107640468/6b45dcae-617f-4a6d-b5e2-25bd0ac9eb2d)
+
