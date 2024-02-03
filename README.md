@@ -8,7 +8,7 @@ The aim of the project is to implement a Ruthven U-net architecture for vocal tr
 </p>
 
 ## PREPROCESSING
-The preprocessing phase aimed to eliminate Gaussian noise present in the provided dataset through three tests. The selected method, Test 3 (fastNlMeansDenoising), demonstrated effective noise reduction, paving the way for subsequent neural architecture implementation.
+The preprocessing phase aimed to eliminate Gaussian noise present in the provided dataset through three tests. Several methods have been performed; the one with the best performance was the **fastNlMeansDenoising** fastNlMeansDenoising demonstrated effective noise reduction, paving the way for subsequent neural architecture implementation.
 ## MODEL
 ## RESULTS
 - The model architecture is based on the Ruthven U-net, consisting of encoder and decoder paths. In the encoder path, high-level features are extracted by progressively reducing spatial dimensions and increasing the number of feature maps. This process results in a latent representation space where spatial resolution is sacrificed for high-level features. The decoder path aims to restore the initial image's spatial dimension, utilizing transpose convolutional layers in combination with standard blocks. Skip connections are incorporated at each step to preserve spatial information extracted by the encoder.
