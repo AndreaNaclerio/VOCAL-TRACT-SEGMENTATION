@@ -3,8 +3,8 @@ The aim of the project is to implement a Ruthven U-net architecture for vocal tr
 
 
 <p float="left" align="center">
-  <img src="1.png" width="200" heigth="200"/>
-  <img src="2.png" width="200" heigth="200"/> 
+  <img src="1.png" hspace="30"  width="200" heigth="200"/ >
+  <img src="2.png" hspace="30"  width="200" heigth="200"/> 
 </p>
 
 
