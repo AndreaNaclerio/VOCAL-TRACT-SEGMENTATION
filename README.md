@@ -25,7 +25,7 @@ To enhance U-net's performance, residual blocks are introduced into the architec
 
 The evolution of learning can be assessed by examining the segmentation outcomes at various epochs throughout the training process shown in the GIF below:
 <p align="center">
-  <img width="200" height="200" src="images/Media1 (online-video-cutter.com)(1).gif"/>
+  <img width="200" height="200" src="learning_progress.gif"/>
 </p>
 
 ## RESULTS
