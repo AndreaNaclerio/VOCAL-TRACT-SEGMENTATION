@@ -21,6 +21,12 @@ To enhance U-net's performance, residual blocks are introduced into the architec
   <img width="700" height="200" src="https://github.com/NacliNaclo/VOCAL-TRACT-SEGMENTATION/assets/107640468/8c7b3b2c-7689-4db5-aaac-77e2ffcc0394"/>
 </p>
 
+
+
+The evolution of learning can be assessed by examining the segmentation outcomes at various epochs throughout the training process shown in the GIF below:
+<p align="center">
+  <img width="200" height="200" src="Media1 (online-video-cutter.com)(1).gif"/>
+</p>
 ## RESULTS
 The DICE is the metric used to evaluate the performance of our model. 
 As final post-processing, a median filter is used to smooth out irregularities of the images trying to remove those pixels belonging to a class different with respect to the surrounding one. In the table below, the performances before (DICE) and after median filter (DICE MF) are shown:
@@ -40,9 +46,7 @@ As final post-processing, a median filter is used to smooth out irregularities o
 <div>
 
 
-<p align="center">
-  <img width="200" height="200" src="Media1 (online-video-cutter.com)(1).gif"/>
-</p>
+
 
 
 
