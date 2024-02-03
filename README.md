@@ -10,7 +10,7 @@ The aim of the project is to implement a Ruthven U-net architecture for vocal tr
 ## PREPROCESSING
 The preprocessing phase aimed to eliminate Gaussian noise present in the provided dataset through three tests. Several methods have been performed; the one that demonstrates the most effective noise reduction was the **fastNlMeansDenoising**, a function already implemented in OpenCV library.
 <p align="center">
-  <img width="600" height="300" alt="noise" src="https://github.com/NacliNaclo/VOCAL-TRACT-SEGMENTATION/assets/107640468/122d29da-2bb9-420a-8963-313553b85a0e">
+  <img width="550" height="320" alt="noise" src="https://github.com/NacliNaclo/VOCAL-TRACT-SEGMENTATION/assets/107640468/122d29da-2bb9-420a-8963-313553b85a0e](https://github.com/NacliNaclo/VOCAL-TRACT-SEGMENTATION/assets/107640468/a7b6610e-bc6b-4319-85fe-2687a8c6ae23)">
 </p>
 
 ## MODEL
