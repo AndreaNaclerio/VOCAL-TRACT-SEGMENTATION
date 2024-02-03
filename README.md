@@ -21,20 +21,19 @@ To enhance U-net's performance, residual blocks are introduced into the architec
   <img width="700" height="200" src="https://github.com/NacliNaclo/VOCAL-TRACT-SEGMENTATION/assets/107640468/8c7b3b2c-7689-4db5-aaac-77e2ffcc0394"/>
 </p>
 
-
-
+<div align="center">
 ## RESULTS
 | CLASS         | DICE  | DICE MF |
-| ------------- | ----- | ---- |
+|:-------------:|:-----:|:----:|
 | BACKGROUND    | 0.9911| 0.9913 |
-| UPPER LIP      | 0.9013| 0.8473              |
-| LOWER LIP      | 0.8476| 0.8164              |
-| HARD PALATE    | 0.7910| 0.8184              |
-| SOFT PALATE    | 0.9320| 0.9276              |
-| TONGUE         | 0.8858| 0.8783              |
-| HEAD           | 0.9669| 0.9657              |
-
-
+| UPPER LIP      | 0.9013| 0.8473 |
+| LOWER LIP      | 0.8476| 0.8164 |
+| HARD PALATE    | 0.7910| 0.8184 |
+| SOFT PALATE    | 0.9320| 0.9276 |
+| TONGUE         | 0.8858| 0.8783 |
+| HEAD           | 0.9669| 0.9657 |
+  
+<div>
 
 <p align="center">
   <img width="200" height="200" src="Media1 (online-video-cutter.com)(1).gif"/>
