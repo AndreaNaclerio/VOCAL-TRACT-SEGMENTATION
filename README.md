@@ -5,5 +5,8 @@
 To enhance U-net's performance, residual blocks are introduced into the architecture. This modification involves transforming basic blocks into residual blocks by concatenating the input of the first block with the output of the second in the same layer. This operation is repeated in both the decoder and encoder parts. The incorporation of residual blocks allows the network to capture intricate features, proving beneficial for segmentation tasks involving subtle details.
 
 <p align="center">
-  <img width="600" height="200" src="https://github.com/NacliNaclo/VOCAL-TRACT-SEGMENTATION/assets/107640468/8f100c2e-6b88-4008-8354-b9b1dba2ef82"/>
+  <img width="700" height="200" src="https://github.com/NacliNaclo/VOCAL-TRACT-SEGMENTATION/assets/107640468/8c7b3b2c-7689-4db5-aaac-77e2ffcc0394"/>
 </p>
+
+
+
