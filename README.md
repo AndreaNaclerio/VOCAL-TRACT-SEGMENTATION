@@ -27,6 +27,7 @@ The evolution of learning can be assessed by examining the segmentation outcomes
 <p align="center">
   <img width="200" height="200" src="Media1 (online-video-cutter.com)(1).gif"/>
 </p>
+
 ## RESULTS
 The DICE is the metric used to evaluate the performance of our model. 
 As final post-processing, a median filter is used to smooth out irregularities of the images trying to remove those pixels belonging to a class different with respect to the surrounding one. In the table below, the performances before (DICE) and after median filter (DICE MF) are shown:
