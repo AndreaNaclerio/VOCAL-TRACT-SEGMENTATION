@@ -18,9 +18,8 @@ To enhance U-net's performance, residual blocks are introduced into the architec
 </p>
 
 
-<p float="left">
-  <img src="Picture2.png" width="100" />
-  <img src="/img2.png" width="100" /> 
-  <img src="/img3.png" width="100" />
+<p float="left" align="center">
+  <img src="Picture2.png" width="300" />
+  <img src="Picture3.png" width="300" /> 
 </p>
 
