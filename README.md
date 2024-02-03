@@ -2,8 +2,8 @@
 The project aims to implement a Ruthven U-net architecture for vocal tract segmentation using Real-Time Magnetic resonance (rtMR) images. The vocal tract segmentation involves identifying six regions: Upper lip, Hard palate, Soft palate, Tongue, Lower lip, and Head. The focus is particularly on the accurate segmentation of the Soft palate and Tongue, as their motion and anatomical features play a crucial role in speech-related issues.
 
 <p float="left" align="center">
-  <img src="1.png" hspace="30"  width="200" heigth="200"/ >
-  <img src="2.png" hspace="30"  width="200" heigth="200"/> 
+  <img src="images/1.png" hspace="30"  width="200" heigth="200"/ >
+  <img src="images/2.png" hspace="30"  width="200" heigth="200"/> 
 </p>
 
 
@@ -25,7 +25,7 @@ To enhance U-net's performance, residual blocks are introduced into the architec
 
 The evolution of learning can be assessed by examining the segmentation outcomes at various epochs throughout the training process shown in the GIF below:
 <p align="center">
-  <img width="200" height="200" src="Media1 (online-video-cutter.com)(1).gif"/>
+  <img width="200" height="200" src="images/Media1 (online-video-cutter.com)(1).gif"/>
 </p>
 
 ## RESULTS
