@@ -22,6 +22,7 @@ To enhance U-net's performance, residual blocks are introduced into the architec
 </p>
 
 <div align="center">
+  
 ## RESULTS
 | CLASS         | DICE  | DICE MF |
 |:-------------:|:-----:|:----:|
@@ -34,6 +35,7 @@ To enhance U-net's performance, residual blocks are introduced into the architec
 | HEAD           | 0.9669| 0.9657 |
   
 <div>
+
 
 <p align="center">
   <img width="200" height="200" src="Media1 (online-video-cutter.com)(1).gif"/>
