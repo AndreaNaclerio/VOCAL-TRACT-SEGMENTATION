@@ -36,13 +36,13 @@ As final post-processing, a median filter is used to smooth out irregularities o
   
 | CLASS         | DICE  | DICE MF |
 |:-------------:|:-----:|:----:|
-| BACKGROUND    | 0.9911| 0.9913 |
-| UPPER LIP      | 0.9013| 0.8473 |
-| LOWER LIP      | 0.8476| 0.8164 |
-| HARD PALATE    | 0.7910| 0.8184 |
-| SOFT PALATE    | 0.9320| 0.9276 |
-| TONGUE         | 0.8858| 0.8783 |
-| HEAD           | 0.9669| 0.9657 |
+| BACKGROUND    | 0.991| 0.991 |
+| UPPER LIP      | 0.901| 0.847 |
+| LOWER LIP      | 0.847| 0.816 |
+| HARD PALATE    | 0.791| 0.818 |
+| SOFT PALATE    | 0.932| 0.927 |
+| TONGUE         | 0.885| 0.878 |
+| HEAD           | 0.966| 0.965 |
   
 <div>
 
